@@ -90,7 +90,7 @@ palabrasMasComunes = cantidadPalabras.most_common(50)
 print(f'Cantidad de vocales: {numeroVocales}')
 print(f'Cantidad de consonantes: {numeroConsonantes}')
 print('Listado de las 50 palabras que más se repiten:')
-for word, count in palabrasMasComunes:
-    print(f'{word}: {count}')
+for palabra, conteo in palabrasMasComunes:
+    print(f'{palabra}: {conteo}')
 ```
   
